@@ -1,13 +1,5 @@
 let todoList = [ 
-   {item : 'study' ,
-   dueDate : '2025-10-12'
-   } , 
-   {item : 'sleep', 
-   dueDate : '2025-10-12'
-   } , 
-   {item : 'enjoy',
-   dueDate : '2025-10-12'
-   }]
+   ]
 displayItems();
 function addTodo(){
    let inputElement = document.querySelector('#todo-input') ;
@@ -40,3 +32,4 @@ function displayItems(){
    containerElement.innerHTML = newHtml;
    
 }
+
