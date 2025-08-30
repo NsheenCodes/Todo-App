@@ -1,0 +1,55 @@
+body {
+font-family : Georgia, 'Times New Roman', Times, serif;
+}
+#main-heading{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+.todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 20px;
+     
+    align-items: center;
+    
+}  
+.input-container{
+     display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+  
+    
+}   
+
+#todo-input  ,#todo-date {
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px 3px;
+} 
+#add-button{
+    font-size: 17px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(35, 204, 41);
+    cursor: pointer;
+}
+#add-button:hover{
+    background-color: rgb(20, 107, 22);
+}
+#dlt-button{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 5px;
+    cursor: pointer;
+}
+#dlt-button:hover{
+background-color: rgb(101, 20, 20);
+}
