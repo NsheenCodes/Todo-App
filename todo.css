@@ -1,5 +1,6 @@
 body {
 font-family : Georgia, 'Times New Roman', Times, serif;
+    background-color: #faf067;
 }
 #main-heading{
     text-align: center;
@@ -52,4 +53,5 @@ font-family : Georgia, 'Times New Roman', Times, serif;
 }
 #dlt-button:hover{
 background-color: rgb(101, 20, 20);
+
 }
